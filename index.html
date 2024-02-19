@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="task2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Task 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="./logo.png" alt="logo" class="nav_logo" />
+
+        <div class="nav_menu">
+          <ul class="nav_items">
+            <li class="nav_item nav_item1">
+              <a href="#" class="nav_link nav_link1">Home</a>
+            </li>
+            <li class="nav_item nav_item2">
+              <a href="#" class="nav_link nav_link2">About Us</a>
+            </li>
+            <li class="nav_item nav_item3">
+              <a href="#" class="nav_link nav_link3">Contact</a>
+            </li>
+            <li class="nav_item nav_item4">
+              <a href="#" class="nav_link nav_link4">Service</a>
+            </li>
+            <button class="nav_item nav_item5 btn">
+              <a href="#" class="nav_link nav_link5">Account</a>
+            </button>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section-1">
+        <div class="heading">
+          <div class="heading-secondary">LITTLE MORE ABOUT US</div>
+          <div class="heading-primary">YOUR KIDS IS OUR FUTURE</div>
+          <div class="heading-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+
+          <button class="btn btn-read_more" id="read-more">Read More</button>
+        </div>
+
+        <div class="header-image"></div>
+      </div>
+
+      <div class="section-2">
+        <div class="card card1">
+          <div class="heading-secondary">Free Classes</div>
+          <div class="card-content">
+            Ut enim ad cupidatat non proident, sunt mollit anim id est laborum.
+            consectetur ... Ut Excepteur sint occaecat minim veniam, quis
+            nostrud in culpa qui officia deserunt
+          </div>
+        </div>
+
+        <div class="card card2">
+          <div class="heading-secondary">Free Classes</div>
+          <div class="card-content">
+            Ut enim ad cupidatat non proident, sunt mollit anim id est laborum.
+            consectetur ... Ut Excepteur sint occaecat minim veniam, quis
+            nostrud in culpa qui officia deserunt
+          </div>
+        </div>
+
+        <div class="card card3">
+          <div class="heading-secondary">Free Classes</div>
+          <div class="card-content">
+            Ut enim ad cupidatat non proident, sunt mollit anim id est laborum.
+            consectetur ... Ut Excepteur sint occaecat minim veniam, quis
+            nostrud in culpa qui officia deserunt
+          </div>
+        </div>
+
+        <div class="card card4">
+          <div class="heading-secondary">Free Classes</div>
+          <div class="card-content">
+            Ut enim ad cupidatat non proident, sunt mollit anim id est laborum.
+            consectetur ... Ut Excepteur sint occaecat minim veniam, quis
+            nostrud in culpa qui officia deserunt
+          </div>
+        </div>
+      </div>
+
+      <div class="section-3">
+        <div class="classes-container">
+          <div class="heading-secondary">Best Classes and Camps</div>
+          <div class="classes-content">
+            Quam quisque id diam vel quam elementum. Vestibulum lectus mauris
+            ultrices eros in cursus turpis massa tincidunt. Pellentesque
+            habitant morbi tristique senectus et netus.
+          </div>
+          <div class="classes-gallery">
+            <div class="gallery-image gallery-image-1"></div>
+            <div class="gallery-image gallery-image-2"></div>
+            <div class="gallery-image gallery-image-3"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-4">
+        <div class="heading-primary">
+          We offer great
+          <span style="color: rgba(241, 124, 33, 1)">price</span> plan for the
+          application
+        </div>
+
+        <form class="plan-tabs">
+          <div class="tab monthly">
+            <input type="radio" name="tabs" checked id="tab1" />
+            <label for="tab1">Monthly</label>
+          </div>
+
+          <div class="tab yearly">
+            <input type="radio" name="tabs" id="tab2" />
+            <label for="tab2">Yearly</label>
+          </div>
+        </form>
+
+        <!-- Monthly Plans -->
+        <div class="plan-cards" data-target-id="tab1">
+          <div class="plan-card plan-card1">
+            <div class="heading-secondary">Starter</div>
+            <div class="plan-card-content">
+              Starter pack to help you to get started
+            </div>
+            <div class="plan-price" style="font-size: 4rem; font-weight: 600">
+              Free
+            </div>
+            <button class="btn btn-get_started-normal" id="get_started">
+              Get Started
+            </button>
+          </div>
+
+          <div class="plan-card plan-card2">
+            <div class="heading-secondary">Pro</div>
+            <div class="plan-card-content">
+              More power for small teams create project plans with confidence
+            </div>
+            <div class="plan-price">
+              $ <span style="font-size: 4rem; margin-right: 0.8rem">20</span> /
+              month
+            </div>
+            <button class="btn btn-get_started-orange" id="get_started">
+              Get Started
+            </button>
+          </div>
+
+          <div class="plan-card plan-card3">
+            <div class="heading-secondary">Business+</div>
+            <div class="plan-card-content">
+              For companies that need to manage work happening across multiple
+              teams.
+            </div>
+            <div class="plan-price">
+              $ <span style="font-size: 4rem; margin-right: 0.8rem">100</span> /
+              month
+            </div>
+            <button class="btn btn-get_started-normal" id="get_started">
+              Get Started
+            </button>
+          </div>
+
+          <div class="plan-card plan-card4">
+            <div class="heading-secondary">Enterprise</div>
+            <div class="plan-card-content">
+              For enterprise that need additional security, control, and
+              support.
+            </div>
+            <div class="plan-price" style="font-size: 4rem; font-weight: 600">
+              Custom
+            </div>
+            <button class="btn btn-get_started-normal" id="contact_sales">
+              Contact Sales
+            </button>
+          </div>
+        </div>
+
+        <!-- Yearly Plans -->
+        <div class="plan-cards hidden" data-target-id="tab2">
+          <div class="plan-card plan-card1">
+            <div class="heading-secondary">Starter</div>
+            <div class="plan-card-content">
+              For Companies that need to manage work happening across multiple
+              teams.
+            </div>
+            <div class="plan-price">
+              $ <span style="font-size: 4rem; margin-right: 0.8rem">50</span> /
+              year
+            </div>
+            <button class="btn btn-get_started-normal" id="get_started">
+              Get Started
+            </button>
+          </div>
+
+          <div class="plan-card plan-card2">
+            <div class="heading-secondary">Pro</div>
+            <div class="plan-card-content">
+              More power for small teams create project plans with confidence
+            </div>
+            <div class="plan-price">
+              $ <span style="font-size: 4rem; margin-right: 0.8rem">150</span> /
+              year
+            </div>
+            <button class="btn btn-get_started-orange" id="get_started">
+              Get Started
+            </button>
+          </div>
+
+          <div class="plan-card plan-card3">
+            <div class="heading-secondary">Business+</div>
+            <div class="plan-card-content">
+              For companies that need to manage work happening across multiple
+              teams.
+            </div>
+            <div class="plan-price">
+              $ <span style="font-size: 4rem; margin-right: 0.8rem">200</span> /
+              month
+            </div>
+            <button class="btn btn-get_started-normal" id="get_started">
+              Get Started
+            </button>
+          </div>
+
+          <div class="plan-card plan-card4">
+            <div class="heading-secondary">Enterprise</div>
+            <div class="plan-card-content">
+              For enterprise that need additional security, control, and
+              support.
+            </div>
+            <div class="plan-price">
+              $ <span style="font-size: 4rem; margin-right: 0.8rem">250</span> /
+              year
+            </div>
+            <button class="btn btn-get_started-normal" id="contact_sales">
+              Contact Sales
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-5">
+        <div class="cta-container">
+          <div class="heading-secondary">Call To Action</div>
+          <div class="cta-content">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
+            voluptatibus voluptas, at eligendi beatae dolore tempore placeat a
+            ad facere quia, praesentiu
+          </div>
+          <button class="btn btn-get_started-white" id="get_started">
+            Get Started
+          </button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-left">
+          <div class="footer-logo"></div>
+          <div class="footer-content">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
+            voluptatibus voluptas, at eligendi beatae dolore tempore placeat a
+            ad facere quia, praesentiu
+          </div>
+          <div class="copyright">
+            Copyrights &#169; 2024 - Shaligram Infotech
+          </div>
+        </div>
+        <div class="footer-right">
+          <div class="heading-secondary">Subscribe to our newsletter</div>
+          <div class="subscribe">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input-email"
+              placeholder="Enter Your Email"
+            />
+            <button class="btn btn-subscribe">Subscribe</button>
+          </div>
+
+          <div class="social-media">
+            <div class="icon icon-wa">
+              <a href="#" class="social-media-link link-wa"
+                ><i
+                  class="fa fa-whatsapp a"
+                  aria-hidden="true"
+                  style="padding: 1rem"
+                ></i
+              ></a>
+            </div>
+            <div class="icon icon-ig">
+              <a href="#" class="social-media-link link-ig"
+                ><i class="fa fa-instagram" aria-hidden="true"></i
+              ></a>
+            </div>
+            <div class="icon icon-fb">
+              <a href="#" class="social-media-link link-fb"
+                ><i class="fa fa-facebook" aria-hidden="true"></i
+              ></a>
+            </div>
+            <div class="icon icon-yt">
+              <a href="#" class="social-media-link link-wa">
+                <i class="fa fa-youtube" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/fontawesome.min.js"
+      integrity="sha512-C8qHv0HOaf4yoA7ISuuCTrsPX8qjolYTZyoFRKNA9dFKnxgzIHnYTOJhXQIt6zwpIFzCrRzUBuVgtC4e5K1nhA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      const monthly_plans = document.querySelector('[data-target-id="tab1"]');
+      const yearly_plans = document.querySelector('[data-target-id="tab2"]');
+      const form = document.querySelector("form");
+
+      form.addEventListener("change", (e) => {
+        monthly_plans.classList.toggle("hidden");
+        yearly_plans.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
